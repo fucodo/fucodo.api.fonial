@@ -1,0 +1,25 @@
+{
+    "name": "fucodo/api-fonial",
+    "description": "Implement a facade against the fonial.de api",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fucodo\\ApiFonial\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kay Strobach",
+            "email": "ks@fucodo.de"
+        }
+    ],
+    "require": {
+        "psr/http-client": "^1.0",
+        "nyholm/psr7": "^1.8",
+        "psr/http-message": "^2.0",
+        "ext-json": "*",
+        "psr/log": "^3.0",
+        "psr/http-factory": "^1.1"
+    }
+}
